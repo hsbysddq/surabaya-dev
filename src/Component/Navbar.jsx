@@ -1,11 +1,11 @@
-import logo from "../assets/t.png"
+import Logo from "../assets/logo.png"
 
 function Navbar() {
   return (
-    <nav className="flex justify-center justify-between text-white pt-[1.8%]">
+    <nav className="flex justify-between text-white pt-[1.8%]">
       <div className="logo">
         <a href="/" className="flex">
-          <img src={logo} alt="" className="logo" />
+          <img src={Logo} alt="" className="logo" />
         </a>
       </div>
 
