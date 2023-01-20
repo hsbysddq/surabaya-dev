@@ -12,9 +12,11 @@ module.exports = {
       colors: {
         grey: "#424543",
         lightGrey: "#646665",
+        secondary: "#ECF1EF",
       },
       backgroundImage: {
         main: "url('/src/assets/bg-main.jpg')",
+        about: "url('/src/assets/bg-about.jpg')",
         shape: "url('/src/assets/bg-shape.jpg')",
       },
     },

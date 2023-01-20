@@ -3,7 +3,7 @@ import Logo from "../assets/logo.png"
 function Navbar() {
   return (
     <nav className="flex justify-between text-white pt-[1.8%]">
-      <div className="logo">
+      <div className="logo p-1.5">
         <a href="/" className="flex">
           <img src={Logo} alt="" className="logo" />
         </a>
@@ -22,7 +22,7 @@ function Navbar() {
           </li>
           <li className="p-4">
             <button className="text-xs outline rounded-sm px-4 py-2">
-              Resume
+              Join Us
             </button>
           </li>
         </ul>
