@@ -14,7 +14,11 @@ function Homepage() {
         <Navbar />
         <Tagline />
       </div>
-      <div className="rounded-t-[10%] absolute bottom-[-50%] bg-secondary w-screen h-[500px]"></div>
+      <div className="rounded-t-[10%] absolute bottom-[-54%] bg-secondary w-screen h-[500px]">
+        <h1 className="absolute left-[50%] mt-10 text-2xl text-lightGrey font-inter font-bold">
+          About Us
+        </h1>
+      </div>
     </>
   )
 }
