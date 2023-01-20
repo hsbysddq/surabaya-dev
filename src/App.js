@@ -4,7 +4,7 @@ import Homepage from "./Pages/Homepage"
 
 function App() {
   return (
-    <div className="">
+    <div className="overflow-hidden">
       <Homepage />
       <About />
     </div>
