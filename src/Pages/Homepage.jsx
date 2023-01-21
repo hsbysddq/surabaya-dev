@@ -26,8 +26,10 @@ function Homepage() {
           <img src={Hero} alt="" className="hero col-span-4 mt-[7%] ml-[8%]" />
         </div>
       </div>
-      <div className="rounded-t-[10%] bg-secondary w-screen h-[500px]">
-        <p>hello</p>
+      <div className="absolute top-[88%] rounded-t-[10%] bg-secondary w-screen h-[500px]">
+        <h1 className="absolute text-lightGrey font-inter text-3xl font-bold pt-8 left-[50%]">
+          About Us
+        </h1>
       </div>
     </div>
   )
