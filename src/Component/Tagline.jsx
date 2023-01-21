@@ -1,6 +1,6 @@
 function Tagline() {
   return (
-    <div className="w-[50%] text-lightGrey font-inter">
+    <div className="text-lightGrey font-inter">
       <h1 className="pt-[100px] text-4xl font-extrabold">Hello Developer</h1>
       <p className="pt-[20px] pb-6 text-xl">
         Surabaya Dev lahir karena tidak adanya wadah belajar untuk para
