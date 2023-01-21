@@ -8,6 +8,10 @@ function About() {
         berkolaborasi.
       </h1>
 
+      <h1 className="flex col-span-3 justify-center text-lightGrey font-inter text-3xl font-bold pb-16">
+        Visi & Misi
+      </h1>
+
       <p>Wadah Belajar</p>
       <p>Koneksi</p>
       <p>Berbagi Ilmu</p>

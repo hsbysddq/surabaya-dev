@@ -29,7 +29,7 @@ function Homepage() {
       </div>
       <div
         id="About"
-        className="absolute container top-[88%] rounded-t-[10%] bg-secondary w-screen h-[500px]"
+        className="absolute container top-[88%] rounded-t-[10%] bg-secondary w-screen pb-10"
       >
         <h1 className="flex justify-center text-lightGrey font-inter text-3xl font-bold pt-8 pb-8">
           About Us
