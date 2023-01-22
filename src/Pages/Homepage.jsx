@@ -1,7 +1,6 @@
 import Navbar from "../Component/Navbar"
 import Hero from "../assets/hero.png"
 import Visi from "../Component/Visi"
-// import About from "./About"
 // import Tagline from "../Component/Tagline"
 
 function Homepage() {
@@ -28,15 +27,17 @@ function Homepage() {
           <img src={Hero} alt="" className="hero col-span-4 mt-[7%] ml-[8%]" />
         </div>
       </div>
+
       <div
         id="About"
-        className="absolute container top-[88%] rounded-t-[10%] bg-secondary w-screen pb-10"
+        className="absolute top-[88%] rounded-t-[10%] bg-secondary w-screen pb-10"
       >
-        <h1 className="flex justify-center text-lightGrey font-inter text-3xl font-bold pt-8 pb-8">
-          About Us
-        </h1>
-        {/* <About /> */}
-        <Visi />
+        <div className="container">
+          <h1 className="flex justify-center text-lightGrey font-inter text-3xl font-bold pt-8 pb-8">
+            About Us
+          </h1>
+          <Visi />
+        </div>
       </div>
     </div>
   )
