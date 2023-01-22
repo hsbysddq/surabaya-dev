@@ -1,6 +1,7 @@
 import Navbar from "../Component/Navbar"
 import Hero from "../assets/hero.png"
-import About from "./About"
+import Visi from "../Component/Visi"
+// import About from "./About"
 // import Tagline from "../Component/Tagline"
 
 function Homepage() {
@@ -34,7 +35,8 @@ function Homepage() {
         <h1 className="flex justify-center text-lightGrey font-inter text-3xl font-bold pt-8 pb-8">
           About Us
         </h1>
-        <About />
+        {/* <About /> */}
+        <Visi />
       </div>
     </div>
   )
