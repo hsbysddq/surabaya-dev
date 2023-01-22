@@ -30,7 +30,7 @@ function Homepage() {
 
       <div
         id="About"
-        className="absolute top-[88%] rounded-t-[10%] bg-secondary w-screen pb-10"
+        className="absolute top-[88%] rounded-[5%] bg-secondary w-screen pb-10"
       >
         <div className="container">
           <h1 className="flex justify-center text-lightGrey font-inter text-3xl font-bold pt-8 pb-8">
