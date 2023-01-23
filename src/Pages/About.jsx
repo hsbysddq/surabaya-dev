@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="grid grid-cols-2">
+    <div className="container grid grid-cols-2 pt-24">
       <div className="col-span-1">
         <h1>Kenapa Harus Gabung Surabay Bersama Surabaya Dev?</h1>
         <p>
