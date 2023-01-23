@@ -11,6 +11,10 @@ function Visi() {
         </h1>
       </div>
 
+      <h1 className="col-span-3 flex justify-center text-lightGrey font-inter text-3xl font-bold pb-16">
+        Visi & Misi
+      </h1>
+
       <div className="content">
         <div className="tittle w-[80%] ml-[20%] flex items-center">
           <FaCheckCircle />

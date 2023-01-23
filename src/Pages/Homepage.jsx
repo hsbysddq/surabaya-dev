@@ -1,7 +1,7 @@
 import Navbar from "../Component/Navbar"
 import Hero from "../assets/hero.png"
 import Visi from "../Component/Visi"
-// import Tagline from "../Component/Tagline"
+import About from "./About"
 
 function Homepage() {
   return (
@@ -37,6 +37,7 @@ function Homepage() {
             About Us
           </h1>
           <Visi />
+          <About />
         </div>
       </div>
     </div>
