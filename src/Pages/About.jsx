@@ -8,7 +8,7 @@ function About() {
       className="absolute top-[88%] rounded-[5%] bg-secondary w-screen pb-10"
     >
       <div className="justify-center">
-        <h1 className="flex justify-center text-lightGrey font-inter text-3xl font-bold pt-8 pb-8">
+        <h1 className="flex justify-center text-tes font-inter text-3xl font-bold pt-8 pb-8">
           About Us
         </h1>
 
@@ -37,7 +37,7 @@ function About() {
               <div className="icon text-4xl">
                 <FaExclamationCircle />
               </div>
-              <h1 className="ml-8 text-2xl pb-2">Suka Belajar Hal Baru</h1>
+              <h1 className="ml-8 pb-2 text-3xl">Suka Belajar Hal Baru</h1>
             </div>
 
             <div className="ml-[12%] w-[55%] mb-8">
@@ -50,7 +50,7 @@ function About() {
               <div className="icon text-4xl">
                 <FaExclamationCircle />
               </div>
-              <h1 className="ml-8 text-2xl pb-2">
+              <h1 className="ml-8 pb-2 text-3xl w-[55%]">
                 Berinteraksi Dengan Banyak Orang
               </h1>
             </div>
@@ -65,7 +65,7 @@ function About() {
               <div className="icon text-4xl">
                 <FaExclamationCircle />
               </div>
-              <h1 className="ml-8 text-2xl pb-2">Suka Belajar Hal Baru</h1>
+              <h1 className="ml-8 pb-2 text-3xl">Suka Belajar Hal Baru</h1>
             </div>
 
             <div className="ml-[12%] w-[55%] mb-8">
