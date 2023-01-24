@@ -1,4 +1,6 @@
 import Visi from "../Component/Visi"
+import { FaExclamationCircle } from "react-icons/fa"
+
 function About() {
   return (
     <div
@@ -31,13 +33,17 @@ function About() {
           </div>
 
           <div className="col-span-1">
-            <div className="ml-[10%] w-[55%] mb-8">
+            <div className="flex">
+              <FaExclamationCircle />
               <h1 className="text-2xl pb-2">Suka Belajar Hal Baru</h1>
+            </div>
+            <div className="ml-[10%] w-[55%] mb-8">
               <p className="text-xl">
                 Komunitas menyediakan wadah untuk berekplorasi tanpa batas
               </p>
             </div>
 
+            <FaExclamationCircle />
             <div className="ml-[10%] w-[55%] mb-8">
               <h1 className="text-2xl pb-2">
                 Berinteraksi Dengan Banyak Orang
@@ -47,6 +53,7 @@ function About() {
               </p>
             </div>
 
+            <FaExclamationCircle />
             <div className="ml-[10%] w-[55%] mb-8">
               <h1 className="text-2xl">Suka Belajar Hal Baru</h1>
               <p className="text-xl pb-2">
