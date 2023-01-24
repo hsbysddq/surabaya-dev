@@ -3,12 +3,12 @@ import { FaCheckCircle } from "react-icons/fa"
 function Visi() {
   return (
     <div className="container col-span-3 justify-center about grid grid-cols-3 text-lightGrey font-inter text-2xl pt-8">
-      <h1 className="col-span-3 flex justify-center text-lightGrey font-inter text-3xl font-bold text-tes pb-16">
+      <h1 className="col-span-3 flex justify-center text-tes font-inter text-4xl font-bold  pb-16">
         Visi & Misi
       </h1>
 
       <div className="content">
-        <div className="tittle flex items-center">
+        <div className="tittle flex items-center text-tes text-3xl">
           <FaCheckCircle />
           <h1 className="ml-6">Wadah Belajar</h1>
         </div>
@@ -22,7 +22,7 @@ function Visi() {
       </div>
 
       <div className="content">
-        <div className="tittle flex items-center">
+        <div className="tittle flex items-center text-tes text-3xl">
           <FaCheckCircle />
           <h1 className="ml-6">Koneksi</h1>
         </div>
@@ -35,7 +35,7 @@ function Visi() {
       </div>
 
       <div className="content">
-        <div className="tittle flex items-center">
+        <div className="tittle flex items-center text-tes text-3xl">
           <FaCheckCircle />
           <h1 className="ml-6">Berbagi Ilmu</h1>
         </div>
