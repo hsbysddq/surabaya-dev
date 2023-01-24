@@ -23,7 +23,7 @@ function About() {
 
         <div className="container grid grid-cols-2 pt-24 text-lightGrey font-inter">
           <div className="col-span-1 w-[90%]">
-            <h1 className="text-5xl font-semibold">
+            <h1 className="text-5xl font-semibold text-tes">
               Kenapa Harus Gabung Bersama Surabaya Dev?
             </h1>
             <p className="text-2xl pt-8">
@@ -33,29 +33,42 @@ function About() {
           </div>
 
           <div className="col-span-1">
-            <div className="flex">
-              <FaExclamationCircle />
-              <h1 className="text-2xl pb-2">Suka Belajar Hal Baru</h1>
+            <div className="flex text-tes">
+              <div className="icon text-4xl">
+                <FaExclamationCircle />
+              </div>
+              <h1 className="ml-8 text-2xl pb-2">Suka Belajar Hal Baru</h1>
             </div>
-            <div className="ml-[10%] w-[55%] mb-8">
+
+            <div className="ml-[12%] w-[55%] mb-8">
               <p className="text-xl">
                 Komunitas menyediakan wadah untuk berekplorasi tanpa batas
               </p>
             </div>
 
-            <FaExclamationCircle />
-            <div className="ml-[10%] w-[55%] mb-8">
-              <h1 className="text-2xl pb-2">
+            <div className="flex text-tes">
+              <div className="icon text-4xl">
+                <FaExclamationCircle />
+              </div>
+              <h1 className="ml-8 text-2xl pb-2">
                 Berinteraksi Dengan Banyak Orang
               </h1>
+            </div>
+
+            <div className="ml-[12%] w-[55%] mb-8">
               <p className="text-xl">
                 Komunitas menyediakan wadah untuk berekplorasi tanpa batas
               </p>
             </div>
 
-            <FaExclamationCircle />
-            <div className="ml-[10%] w-[55%] mb-8">
-              <h1 className="text-2xl">Suka Belajar Hal Baru</h1>
+            <div className="flex text-tes">
+              <div className="icon text-4xl">
+                <FaExclamationCircle />
+              </div>
+              <h1 className="ml-8 text-2xl pb-2">Suka Belajar Hal Baru</h1>
+            </div>
+
+            <div className="ml-[12%] w-[55%] mb-8">
               <p className="text-xl pb-2">
                 Komunitas menyediakan wadah untuk berekplorasi tanpa batas
               </p>
