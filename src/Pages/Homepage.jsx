@@ -1,11 +1,13 @@
-import Navbar from "../Component/Navbar"
+// import Navbar from "../Component/Navbar"
+import Nav from "../Component/Nav"
 import Hero from "../assets/hero.png"
 
 function Homepage() {
   return (
     <div className="bg-cover bg-center bg-main h-screen w-screen text-greey">
       <div className="container">
-        <Navbar />
+        {/* <Navbar /> */}
+        <Nav />
         <div className="grid grid-cols-9">
           <div className="w-[78%] text-lightGrey font-inter col-span-5">
             <h1 className="pt-[100px] text-4xl font-extrabold">
