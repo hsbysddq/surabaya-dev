@@ -1,7 +1,9 @@
+import Card from "../Component/Card"
+
 function Career() {
   return (
-    <div className="bg-about w-screen h-[1000px]">
-      <h1>Hello</h1>
+    <div className="bg-about w-screen h-[2000px]">
+      <Card />
     </div>
   )
 }
