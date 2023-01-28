@@ -4,7 +4,7 @@ import { FaExclamationCircle } from "react-icons/fa"
 function About() {
   return (
     <div
-      id="About"
+      id="about"
       className="absolute top-[88%] rounded-[5%] bg-secondary w-screen pb-10"
     >
       <div className="justify-center">
