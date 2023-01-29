@@ -14,10 +14,9 @@ function About() {
 
         <div className="container about col-span-3 mb-16 mt-8 text-lightGrey font-inter text-2xl">
           <h1>
-            Surabaya Dev bertujuan menjadi wadah talenta teknologi dengan
-            memanfaatkan potensinya untuk meningkatkan skill tech di bidang
-            programming maupun digital teknologi agar dapat saling bersinergi
-            berkolaborasi.
+            Surabaya Dev lahir karena tidak adanya wadah belajar untuk para
+            programer yang ingin terus berkembang untuk meningkatkan kemampuan
+            teknikal skill.
           </h1>
         </div>
 
