@@ -1,6 +1,6 @@
 import "./App.css"
 import Homepage from "./Pages/Homepage"
-import Career from "./Pages/Career"
+// import Career from "./Pages/Career"
 import About from "./Pages/About"
 import Event from "./Pages/Event"
 
@@ -9,8 +9,8 @@ function App() {
     <div className="">
       <Homepage />
       <About />
-      <Career />
       <Event />
+      {/* <Career /> */}
     </div>
   )
 }

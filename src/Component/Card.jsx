@@ -2,7 +2,7 @@ import Logo from "../assets/hero.png"
 
 const Card = () => {
   return (
-    <div className="card w-96 bg-white shadow-xl">
+    <div className="card bg-white shadow-xl mb-16">
       <figure>
         <img src={Logo} alt="Shoes" className="w-48" />
       </figure>
