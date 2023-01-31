@@ -1,6 +1,6 @@
 import React from "react"
 import Card from "../Component/Card"
-
+import Form from "../Component/Form"
 const Event = () => {
   return (
     <div className="bg-about w-screen pt-[1200px]">
@@ -14,6 +14,7 @@ const Event = () => {
             <Card />
             <Card />
           </div>
+          <Form />
         </div>
       </div>
     </div>
