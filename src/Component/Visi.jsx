@@ -2,8 +2,8 @@ import { FaCheckCircle } from "react-icons/fa"
 
 function Visi() {
   return (
-    <div className="container col-span-3 justify-center about grid grid-cols-3 text-lightGrey font-inter text-2xl pt-8">
-      <h1 className="col-span-3 flex justify-center text-tes font-inter text-4xl font-bold  pb-16">
+    <div className="container col-span-3 justify-center about grid grid-cols-3 text-lightGrey font-inter text-2xl pt-16">
+      <h1 className="col-span-3 flex justify-center text-tes font-inter text-4xl font-bold  pb-12">
         Visi & Misi
       </h1>
 

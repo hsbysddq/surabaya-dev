@@ -1,5 +1,6 @@
 import Visi from "../Component/Visi"
 import { FaExclamationCircle } from "react-icons/fa"
+import AboutImg from "../assets/about.png"
 
 function About() {
   return (
@@ -21,7 +22,7 @@ function About() {
         </div>
 
         <div className="container grid grid-cols-2 pt-24 text-lightGrey font-inter">
-          <div className="col-span-1 w-[90%]">
+          <div className="relative col-span-1 w-[90%]">
             <h1 className="text-5xl font-semibold text-tes">
               Kenapa Harus Gabung Bersama Surabaya Dev?
             </h1>
@@ -29,9 +30,14 @@ function About() {
               Komunitas adalah tempat yang tepat untuk kamu yang suka dengan
               berbagai ilmu dan waktu.
             </p>
+            <img
+              src={AboutImg}
+              alt=""
+              className="absolute top-[44%] w-80 ml-28"
+            />
           </div>
 
-          <div className="col-span-1">
+          <div className="col-span-1 ml-12">
             <div className="flex text-tes">
               <div className="icon text-4xl">
                 <FaExclamationCircle />
