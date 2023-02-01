@@ -12,7 +12,7 @@ const Form = () => {
             </h1>
             <div className="form-control w-full max-w-xs">
               <label className="label">
-                <span className="label-text">Firs Name</span>
+                <span className="label-text">First Name</span>
               </label>
               <input
                 type="text"
