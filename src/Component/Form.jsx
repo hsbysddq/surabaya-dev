@@ -33,7 +33,7 @@ const Form = () => {
                 <span className="label-text">Email</span>
               </label>
               <input
-                type="text"
+                type="email"
                 placeholder="Email"
                 className="input input-bordered w-full max-w-xs mb-12"
               />
