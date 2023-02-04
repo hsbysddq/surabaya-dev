@@ -19,7 +19,7 @@ function Homepage() {
             </p>
 
             <button className="text-lightGrey outline rounded-md px-6 py-3">
-              Gabung Sekarang!
+              Gabung Sekarang
             </button>
           </div>
 
