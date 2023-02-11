@@ -9,7 +9,7 @@ function Homepage() {
         <div className="grid grid-cols-9">
           <div className="w-[80%] text-lightGrey font-inter col-span-5">
             <h1 className="pt-[100px] text-4xl font-extrabold">
-              Hallo Developer
+              Halo Developer
             </h1>
             <p className="pt-[20px] pb-6 text-xl">
               Surabaya Dev merupakan wadah talenta teknologi dengan memanfaatkan
